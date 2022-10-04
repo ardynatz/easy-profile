@@ -26,28 +26,32 @@ export const projects = {
     title: "My Projects",
     data: [
         {
-            title: "Projects 1",
+            title: "Example Projects 1",
             desc: "Projects 1 is a simple projects with some gorgeus feature.",
             link: "https://example.com",
-            github: "https://github.com/"
+            github: "https://github.com/",
+            tag: ['Daisy UI', 'Laravel']
         },
         {
-            title: "Projects 2",
+            title: "Example Projects 2",
             desc: "Projects 2 is a simple projects with some gorgeus feature.",
             link: "https://example.com",
-            github: "https://github.com/"
+            github: "https://github.com/",
+            tag: ['Tailwind CSS', 'Node JS']
         },
         {
-            title: "Projects 3",
+            title: "Example Projects 3",
             desc: "Projects 3 is a simple projects with some gorgeus feature.",
             link: "https://example.com",
-            github: "https://github.com/"
+            github: "https://github.com/",
+            tag: ['Bootstrap 5', 'Django']
         },
         {
-            title: "Projects 4",
+            title: "Example Projects 4",
             desc: "Projects 4 is a simple projects with some gorgeus feature.",
             link: "https://example.com",
-            github: "https://github.com/"
+            github: "https://github.com/",
+            tag: ['Material UI', 'Spring']
         }
     ]
 }

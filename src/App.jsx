@@ -1,4 +1,8 @@
-import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Navigate,
+} from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
@@ -10,7 +14,9 @@ const Index = () => {
   return (
     <>
       <Navbar />
-      <About />
+      <main>
+        <About />
+      </main>
       <Footer />
     </>
   );
@@ -20,7 +26,9 @@ const Projects = () => {
   return (
     <>
       <Navbar />
-      <Project />
+      <main>
+        <Project />
+      </main>
       <Footer />
     </>
   );
@@ -53,7 +61,7 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contacts />,
-  }
+  },
 ]);
 
 export default function App() {

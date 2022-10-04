@@ -3,12 +3,45 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
   body {
     @apply bg-stone-200 dark:bg-stone-900 px-2;
+  }
+
+  p {
+    @apply text-base tracking-wide text-black dark:text-stone-400 dark:font-normal;
+  }
+
+  a {
+    @apply text-black dark:text-stone-300;
+  }
+
+  @media (min-width: 768px) {
+    p {
+      @apply text-justify;
+    }
   }
  }
  
 @layer components {
+  .projects-badge {
+    @apply whitespace-nowrap bg-gradient-to-r 
+    from-indigo-500 to-indigo-400 shadow-sm
+    text-white px-2 py-1 rounded-full text-[.7rem];
+  }
+  
+  .projects-card {
+    @apply transition duration-300 ease-in-out cursor-pointer
+    max-w-md bg-white/20 dark:bg-white/10 rounded-lg shadow-md overflow-hidden md:max-w-xl;
+  }
+
+  .p-desc {
+    @apply text-start;
+  }
+
   .top-navigation-h1 {
     @apply transition duration-300 ease-in-out cursor-pointer;
   }
@@ -29,11 +62,10 @@
   .top-navigation-icon {
     @apply text-black
     transition duration-300 ease-in-out 
-    flex
     hover:text-stone-500 
     cursor-pointer
     dark:bg-stone-900
-    dark:text-stone-500;
+    dark:text-stone-500
   }
 
   .top-navigation-icon:first {

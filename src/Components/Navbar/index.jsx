@@ -30,7 +30,7 @@ export default function Navbar() {
             </h1>
           </a>
         </div>
-        <ul className="flex grid-flow-row justify-evenly mb-6 mt-6">
+        <ul className="flex grid-flow-row justify-evenly items-center mb-6 mt-6">
           <li className="font-bold text-base">
             <NavLink
               className={({ isActive }) =>
