@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-200 dark:bg-stone-900 px-2;
+  }
+ }
+ 
+@layer components {
+  .top-navigation-h1 {
+    @apply transition duration-300 ease-in-out cursor-pointer;
+  }
+
+  .top-navigation-text {
+    @apply transition duration-300 ease-in-out cursor-pointer
+    p-2;
+  }
+
+  .top-navigation {
+    @apply flex flex-row items-center justify-evenly 
+    bg-stone-300 dark:bg-stone-900 bg-opacity-90 
+    w-full h-16 
+    m-0 
+    shadow-lg;
+  }
+
+  .top-navigation-icon {
+    @apply text-black
+    transition duration-300 ease-in-out 
+    flex
+    hover:text-stone-500 
+    cursor-pointer
+    dark:bg-stone-900
+    dark:text-stone-500;
+  }
+
+  .top-navigation-icon:first {
+    @apply ml-auto mr-4;
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+}
