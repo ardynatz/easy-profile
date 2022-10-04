@@ -30,12 +30,12 @@ export default function Navbar() {
             </h1>
           </a>
         </div>
-        <ul className="flex grid-flow-row justify-evenly items-center mb-6 mt-6">
+        <ul className="flex grid-flow-row justify-evenly mb-6 mt-6">
           <li className="font-bold text-base">
             <NavLink
               className={({ isActive }) =>
                 "top-navigation-text text-black border-black dark:text-stone-400" +
-                (isActive ? " border-b dark:border-stone-400 dark:text-stone-300" : "")
+                (isActive ? " border-b dark:border-stone-400 dark:text-stone-200" : "")
               }
               to="/home"
             >
@@ -46,7 +46,7 @@ export default function Navbar() {
             <NavLink
               className={({ isActive }) =>
                 "top-navigation-text text-black border-black dark:text-stone-400" +
-                (isActive ? " border-b dark:border-stone-400 dark:text-stone-300" : "")
+                (isActive ? " border-b dark:border-stone-400 dark:text-stone-200" : "")
               }
               to="/projects"
             >
@@ -57,7 +57,7 @@ export default function Navbar() {
             <NavLink
               className={({ isActive }) =>
                 "top-navigation-text text-black border-black dark:text-stone-400" +
-                (isActive ? " border-b dark:border-stone-400 dark:text-stone-300" : "")
+                (isActive ? " border-b dark:border-stone-400 dark:text-stone-200" : "")
               }
               to="/contact"
             >
