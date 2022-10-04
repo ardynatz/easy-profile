@@ -1,5 +1,5 @@
 import { AiOutlineGithub } from "react-icons/ai";
-import { projects } from "../../Data/config";
+import { projectsConfig as projects } from "../../Data/config";
 
 export default function Project() {
   return (

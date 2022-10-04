@@ -1,4 +1,4 @@
-import { footer } from "../../Data/config";
+import { footerConfig as footer } from "../../Data/config";
 
 export default function Footer() {
   return (

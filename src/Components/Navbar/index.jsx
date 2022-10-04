@@ -1,7 +1,7 @@
 import { RiSunLine, RiMoonClearLine } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 import useDarkMode from "../../Hooks/useDarkMode";
-import { navbar } from "../../Data/config";
+import { navbarConfig as navbar } from "../../Data/config";
 
 const Switcher = () => {
   const [darkTheme, setDarkTheme] = useDarkMode();

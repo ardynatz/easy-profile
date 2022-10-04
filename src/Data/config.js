@@ -1,19 +1,19 @@
-export const navbar = {
+export const navbarConfig = {
     title: "Ardy Pranata"
 }
 
-export const footer = {
+export const footerConfig = {
     text: "2022 Crafted with Inspiration"
 }
 
-export const about = {
+export const aboutConfig = {
     title: "Hello, I'm Ardy Pranata👋",
     p1: "I live in Indonesia on the island of East Java, Born on August 14, 2002 which is now 20 yo. Starting from my interest in the World of Technology, now I'm focusing on learning about Software Engineer.",
     p2: "My current position is looking for opportunities to fill collaborations with the community or personally, my goal is to continue to learn new things with standard productivity and seek an experience out there.",
     p3: "Another thing about me that might interest you, I really like to play music, enjoy nature, play games." 
 }
 
-export const contact = {
+export const contactConfig = {
     title: "Reach me on",
     email: "hi@ardipranata.me",
     facebook: "http://www.facebook.com/ardi.pranata.330",
@@ -22,7 +22,7 @@ export const contact = {
     twitter: "http://twitter.com/ardipranata89"
 }
 
-export const projects = {
+export const projectsConfig = {
     title: "My Projects",
     data: [
         {

@@ -1,4 +1,4 @@
-import { about } from "../../Data/config";
+import { aboutConfig as about } from "../../Data/config";
 
 export default function About() {
   return (
