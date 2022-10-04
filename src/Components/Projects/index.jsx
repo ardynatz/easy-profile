@@ -1,8 +1,10 @@
+import { projects } from "../../Data/config";
+
 export default function Project() {
   return (
     <div className="mx-auto max-w-xl px-2 py-4">
       <h1 className="text-center text-2xl font-bold dark:text-stone-300">
-        Projects
+        {projects.title}
       </h1>
       <div className="max-w-sm rounded mt-6 overflow-hidden hover:shadow-stone-800/50 shadow-lg dark:bg-stone-900/25">
         <div className="px-6 py-4">

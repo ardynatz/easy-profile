@@ -1,11 +1,13 @@
+import { contact } from "../../Data/config";
+
 export default function Contact() {
     return (
       <div>
-        <h1>Contact</h1>
+        <h1>{contact.title}</h1>
         <ul>
-          <li>Email</li>
-          <li>Facebook</li>
-          <li>Telegram</li>
+          <li>{contact.email}</li>
+          <li>{contact.facebook}</li>
+          <li>{contact.telegram}</li>
         </ul>
       </div>
     );

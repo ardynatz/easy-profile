@@ -1,6 +1,7 @@
 import { RiSunLine, RiMoonClearLine } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 import useDarkMode from "../../Hooks/useDarkMode";
+import { navbar } from "../../Data/config";
 
 const Switcher = () => {
   const [darkTheme, setDarkTheme] = useDarkMode();
@@ -18,25 +19,14 @@ const Switcher = () => {
 };
 
 export default function Navbar() {
-  const data = {
-    name: "Ardy Pranata",
-    born: "August 14, 2002",
-    age: "20",
-    skill: "Web Developer",
-    email: "ardiprana90@gmail.com",
-    instagram: "https://www.instagram.com/_ardipranata_",
-    facebook: "https://www.facebook.com/ardi.pranata.330",
-    github: "https://github.com/ardipranata89",
-    twitter: "https://twitter.com/ardipranata89",
-  };
 
   return (
     <header className="mx-auto max-w-xl px-2 py-4">
       <nav>
         <div className="flex justify-center">
           <a className="no-underline" href="#">
-            <h1 className="top-navigation-h1 text-xl font-extrabold text-medium italic text-black dark:text-stone-400">
-              {data.name}
+            <h1 className="top-navigation-h1 text-xl font-extrabold text-medium italic text-black dark:text-stone-300">
+              {navbar.title}
             </h1>
           </a>
         </div>
