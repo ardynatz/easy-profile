@@ -15,10 +15,7 @@ export default function Project() {
                 <div className="tracking-wide text-lg text-black dark:text-stone-300 font-bold">
                   {project.title}
                 </div>
-                <p className="my-2 p-desc">
-                  Ipsum laboris excepteur non pariatur nisi officia ut in non
-                  aliquip reprehenderit deserunt.
-                </p>
+                <p className="my-2 p-desc">{project.desc}</p>
                 <div className="flex flex-row items-center pt-2">
                   {project.tag.map((item) => (
                     <span key={item} className="projects-badge mr-2">
@@ -26,10 +23,7 @@ export default function Project() {
                     </span>
                   ))}
                   <div className="rounded-xl dark:shadow-white/50 shadow">
-                    <a
-                      href={project.github}
-                      className="text-xl"
-                    >
+                    <a href={project.github} className="text-xl">
                       <GoMarkGithub />
                     </a>
                   </div>
