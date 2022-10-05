@@ -1,5 +1,5 @@
 export const navbarConfig = {
-  title: "Name",
+  title: "Ardy",
 };
 
 export const footerConfig = {
@@ -7,10 +7,10 @@ export const footerConfig = {
 };
 
 export const aboutConfig = {
-  title: "Hello, I'm Lorem Ipsum👋",
-  p1: "Sunt non laborum culpa qui veniam aliqua tempor occaecat qui Lorem aliqua amet. Nostrud sit adipisicing aliqua ex commodo. Nulla enim excepteur non anim quis quis voluptate qui est labore ea fugiat aute sit.",
-  p2: "Pariatur sit commodo nostrud amet veniam non est labore laboris ipsum. Enim non eu sunt duis pariatur ex aliqua amet sunt nisi. Sit exercitation excepteur tempor laboris dolor. Esse aliquip tempor dolore id duis dolor eu minim elit in. Tempor sunt est ex reprehenderit ad fugiat elit.",
-  p3: "Anim minim ut ad et qui veniam. Aute anim cillum incididunt non. Consectetur et Lorem Lorem in deserunt reprehenderit fugiat ex minim quis elit reprehenderit. Proident excepteur consequat non incididunt adipisicing. Excepteur ullamco fugiat officia nostrud magna id aliquip fugiat tempor qui minim ad. Pariatur reprehenderit eiusmod aliqua ea non.",
+  title: "Hello, I'm Ardy Pranata👋",
+  p1: "I live in Indonesia on the island of East Java, Born on August 14, 2002 which is now 20 yo. Starting from my interest in the World of Technology, now I'm focusing on learning about Software Engineer.",
+  p2: "My current position is looking for opportunities to fill collaborations with the community or personally, my goal is to continue to learn new things with standard productivity and seek an experience out there.",
+  p3: "Another thing about me that might interest you, I really like to play music, enjoy nature, play games.",
 };
 
 export const contactConfig = {
