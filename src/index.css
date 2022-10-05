@@ -29,7 +29,7 @@
   
   .projects-card {
     @apply transition duration-300 ease-in-out cursor-pointer
-    max-w-md bg-white/30 dark:bg-white/5 rounded-lg shadow-md overflow-hidden md:max-w-xl;
+    max-w-md bg-white/5 dark:bg-white/5 rounded-lg shadow-md overflow-hidden md:max-w-xl;
   }
 
   .p-about {
