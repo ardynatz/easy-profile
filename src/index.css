@@ -8,21 +8,15 @@
   }
   
   body {
-    @apply bg-stone-200 dark:bg-stone-900 px-2;
+    @apply bg-stone-100/50 dark:bg-stone-900 px-2;
   }
 
   p {
-    @apply text-base tracking-wide text-black dark:text-stone-400 dark:font-normal;
+    @apply text-black dark:text-stone-400 dark:font-normal;
   }
 
   a {
     @apply text-black dark:text-stone-300;
-  }
-
-  @media (min-width: 768px) {
-    p {
-      @apply text-justify;
-    }
   }
  }
  
@@ -36,6 +30,10 @@
   .projects-card {
     @apply transition duration-300 ease-in-out cursor-pointer
     max-w-md bg-white/30 dark:bg-white/5 rounded-lg shadow-md overflow-hidden md:max-w-xl;
+  }
+
+  .p-about {
+    @apply text-base tracking-wide leading-loose;
   }
 
   .p-desc {
@@ -53,7 +51,7 @@
 
   .top-navigation {
     @apply flex flex-row items-center justify-evenly 
-    bg-stone-300 dark:bg-stone-900 bg-opacity-90 
+    bg-opacity-90 
     w-full h-16 
     m-0 
     shadow-lg;
@@ -62,10 +60,9 @@
   .top-navigation-icon {
     @apply text-black
     transition duration-300 ease-in-out 
-    hover:text-stone-500 
     cursor-pointer
-    dark:bg-stone-900
-    dark:text-stone-500
+    rounded-full
+    dark:text-stone-300
   }
 
   .top-navigation-icon:first {
