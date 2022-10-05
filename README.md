@@ -33,7 +33,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Learn More
 
-You can learn more in the [Create React App with Vite documentation](https://vitejs.dev/guide/).
+You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
