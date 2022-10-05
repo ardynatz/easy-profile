@@ -1,4 +1,5 @@
-import { RiSunLine, RiMoonClearLine } from "react-icons/ri";
+import { RiMoonClearLine } from "react-icons/ri";
+import { WiDaySunny } from "react-icons/wi";
 import { NavLink } from "react-router-dom";
 import useDarkMode from "../../Hooks/useDarkMode";
 import { navbarConfig as navbar } from "../../Data/config";
@@ -10,7 +11,7 @@ const Switcher = () => {
   return (
     <span onClick={handleMode}>
       {darkTheme ? (
-        <RiSunLine size="20" className="top-navigation-icon" />
+        <WiDaySunny size="25" className="top-navigation-icon" />
       ) : (
         <RiMoonClearLine size="20" className="top-navigation-icon" />
       )}

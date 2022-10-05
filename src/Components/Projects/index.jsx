@@ -1,4 +1,4 @@
-import { AiOutlineGithub } from "react-icons/ai";
+import { GoMarkGithub } from "react-icons/go";
 import { projectsConfig as projects } from "../../Data/config";
 
 export default function Project() {
@@ -30,7 +30,7 @@ export default function Project() {
                       href={project.github}
                       className="text-xl"
                     >
-                      <AiOutlineGithub />
+                      <GoMarkGithub />
                     </a>
                   </div>
                 </div>
