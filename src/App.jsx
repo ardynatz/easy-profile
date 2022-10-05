@@ -38,7 +38,9 @@ const Contacts = () => {
   return (
     <>
       <Navbar />
-      <Contact />
+      <main>
+        <Contact />
+      </main>
       <Footer />
     </>
   );
