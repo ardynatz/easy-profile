@@ -1,5 +1,5 @@
 export const navbarConfig = {
-  title: "Ardy Pranata",
+  title: "Ardy",
 };
 
 export const footerConfig = {

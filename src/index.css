@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,10 +10,11 @@
   
   body {
     @apply bg-stone-100/50 dark:bg-stone-900 px-2;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue";
   }
 
   p {
-    @apply text-black dark:text-stone-400 dark:font-normal;
+    @apply text-black dark:text-stone-400;
   }
 
   a {
@@ -33,7 +35,7 @@
   }
 
   .p-about {
-    @apply text-base tracking-wide leading-loose;
+    @apply tracking-wide leading-loose;
   }
 
   .p-desc {

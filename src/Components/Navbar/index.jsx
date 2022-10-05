@@ -26,7 +26,7 @@ export default function Navbar() {
       <nav>
         <div className="flex justify-center">
           <a className="no-underline" href="#">
-            <h1 className="top-navigation-h1 text-xl font-extrabold text-medium italic text-black dark:text-stone-300">
+            <h1 className="top-navigation-h1 text-xl font-black italic text-black dark:text-stone-300">
               {navbar.title}
             </h1>
           </a>
