@@ -16,8 +16,7 @@ export default function Project() {
                   {project.title}
                 </div>
                 <p className="my-2 p-desc">
-                  Ipsum laboris excepteur non pariatur nisi officia ut in non
-                  aliquip reprehenderit deserunt.
+                  {project.desc}
                 </p>
                 <div className="flex flex-row items-center pt-2">
                   {project.tag.map((item) => (
