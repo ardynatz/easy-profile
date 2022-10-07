@@ -1,6 +1,6 @@
 # Easy Profile
 
-Easy profile makes it easy for you to have a personal website by explaining your personal data, your experience, your life.
+Easy profile makes it easy for you to have a personal website by explaining your personal bio, your experience, your life.
 
 To modify profile details, you can edit `config.js` file on `/src/Data/config.js`.
 
