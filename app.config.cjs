@@ -4,7 +4,7 @@ module.exports = {
     apps: [
       {
         exec_mode: 'cluster',
-        script: 'build',
+        script: 'serve',
         watch: false,
         env: {
           PM2_SERVE_PATH: './dist',
