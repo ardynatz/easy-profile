@@ -1,3 +1,5 @@
+// Serve apps using pm2 eg. `pm2 start app.config.cjs'
+
 module.exports = {
     apps: [
       {
@@ -10,7 +12,7 @@ module.exports = {
           PM2_SERVE_SPA: 'true',
         },
         instances: '2',
-        name: 'my-profile',
+        name: 'simple-profile',
       },
     ],
 }
