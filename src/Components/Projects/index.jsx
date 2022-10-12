@@ -15,9 +15,7 @@ export default function Project() {
                 <div className="tracking-wide text-lg text-black dark:text-stone-300 font-bold">
                   {project.title}
                 </div>
-                <p className="my-2 p-desc">
-                  {project.desc}
-                </p>
+                <p className="my-2 p-desc">{project.desc}</p>
                 <div className="flex flex-row items-center pt-2">
                   {project.tag.map((item) => (
                     <span key={item} className="projects-badge mr-2">
