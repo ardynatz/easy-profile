@@ -11,7 +11,7 @@ module.exports = {
         PM2_SERVE_PORT: 5173,
         PM2_SERVE_SPA: 'true',
       },
-      instances: '2',
+      instances: '1',
       name: 'simple-profile',
     },
   ],
