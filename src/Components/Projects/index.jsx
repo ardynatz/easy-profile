@@ -4,15 +4,15 @@ import { projectsConfig as projects } from "../../Data/config";
 
 export default function Project() {
   return (
-    <section className="mx-auto max-w-4xl px-2 py-2" id="projects">
+    <section className="mx-auto md:max-w-3xl px-2 py-2" id="projects">
       <h1 className="text-center mb-4 text-2xl font-bold dark:text-stone-300">
         {projects.title}
       </h1>
-      <div className="py-4 justify-items-center grid grid-cols-1 gap-8 md:grid-cols-2">
+      <div className="py-4 justify-items-center grid grid-cols-1 gap-12 md:grid-cols-2">
         {projects.data.map((project) => (
           <div
             key={project.title}
-            className="projects-card w-80 max-w-4xl md:w-96 md:max-w-96"
+            className="projects-card w-80 max-w-3xl md:w-96 md:max-w-96"
           >
             <div className="md:flex">
               <div className="p-8">
