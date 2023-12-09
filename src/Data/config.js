@@ -8,9 +8,9 @@ export const footerConfig = {
 
 export const aboutConfig = {
   title: "Hello, I'm Ardy Pranata👋",
-  p1: "I live in Indonesia on the island of East Java, Born on August 14, 2002 which is now 21 yo. Starting from my interest in the World of Technology, now I'm focusing on learning about Sofware Engineer.",
-  p2: "As a Software Engineer with some work experience, I am very interested in Business or Personal Collaboration, I am ready to fill several roles.",
-  p3: "Right now I'm focusing on Automation Development. If you have an idea to work with me or are interested in finding a Software Engineer like me, just contact me without hesitation!",
+  p1: "Residing in Indonesia on the East Java island, I was born on August 14, 2002, now at 21 years old. My journey into the world of technology has led me to focus on becoming a Software Engineer.",
+  p2: "As a Software Engineer with practical experience, I am keen on exploring business and personal collaborations, and I am versatile in taking on various roles.",
+  p3: "My current emphasis is on Automation Development. If you have an idea to collaborate with me or are seeking a Software Engineer for your project, feel free to reach out. I'm open to new opportunities!"
 };
 
 export const contactConfig = {
@@ -28,28 +28,28 @@ export const projectsConfig = {
     {
       title: "Your-URL",
       desc: "Joined Your-URL App, this App is similar to Linktree but much flexible for any User.",
-      link: "https://yoururl.app",
+      link: "#",
       github: "#",
       tag: ["Service", "Bio Manager"],
     },
     {
       title: "Simple Profile",
-      desc: "You want simple profile like mine? Don't worry i got you :)",
-      link: "https://ardipranata.me",
+      desc: "Streamlined developer profile for showcasing your biography, experience, and skills effortlessly.",
+      link: "#",
       github: "https://github.com/ardipranata89/easy-profile",
       tag: ["React", "Vite JS", "Tailwind CSS"],
     },
     {
       title: "Cyberzone",
       desc: "Social Media Services, Fulfill your social media needs by using Cyberzone services.",
-      link: "https://cyberzone.id",
+      link: "#",
       github: "#",
       tag: ["Software Engineer", "Automation"],
     },
     {
       title: "AES Crypted",
       desc: "With the AES JavaScript algorithm you can encrypt your messages securely and you can set your own encryption password, making your messages even more private.",
-      link: "https://aescrypted.ardipranata.me",
+      link: "https://aescrypted.ardy.lol",
       github: "#",
       tag: ["Material UI", "Tailwind CSS", "React Vite"],
     },
