@@ -17,7 +17,7 @@ export const contactConfig = {
   title: "Reach me on",
   email: "ardiprana90@gmail.com",
   facebook: "http://www.facebook.com/ardi.pranata.330",
-  telegram: "@ardiprana89",
+  telegram: "ardynatz",
   instagram: "http://instagram.com/ardynatz89",
   twitter: "http://twitter.com/ardipranata89",
 };
