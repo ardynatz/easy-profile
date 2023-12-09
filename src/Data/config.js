@@ -48,7 +48,7 @@ export const projectsConfig = {
     },
     {
       title: "AES Crypted",
-      desc: "With the AES JavaScript algorithm you can encrypt your messages securely and you can set your own encryption password, making your messages even more private.",
+      desc: "AES JavaScript algorithm can encrypt your messages securely and you can set your own encryption password, making your messages even more private.",
       link: "https://aescrypted.ardy.lol",
       github: "#",
       tag: ["Material UI", "Tailwind CSS", "React Vite"],
