@@ -25,7 +25,7 @@ export default function Contact() {
           <span className="mr-4 text-xl text-red-500/90">
             <SiInstagram />
           </span>
-          @_ardipranata_
+          @{contact.instagram}
         </a>
         <a
           className="flex items-center no-underline text-lg py-2"
