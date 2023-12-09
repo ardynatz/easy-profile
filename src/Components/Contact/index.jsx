@@ -20,12 +20,12 @@ export default function Contact() {
         </a>
         <a
           className="flex items-center no-underline text-lg py-2"
-          href={contact.instagram}
+          href={`https://www.instagram.com/${contact.instagram}`}
         >
           <span className="mr-4 text-xl text-red-500/90">
             <SiInstagram />
           </span>
-          @{contact.instagram}
+          {contact.instagram}
         </a>
         <a
           className="flex items-center no-underline text-lg py-2"
