@@ -20,7 +20,7 @@ export default function Contact() {
         </a>
         <a
           className="flex items-center no-underline text-lg py-2"
-          href={`https://www.instagram.com/${contact.instagram}`}
+          href={`http://www.instagram.com/${contact.instagram}`}
         >
           <span className="mr-4 text-xl text-red-500/90">
             <SiInstagram />
@@ -38,7 +38,7 @@ export default function Contact() {
         </a>
         <a
           className="flex items-center no-underline text-lg py-2"
-          href={contact.facebook}
+          href={`http://www.facebook.com/${contact.facebook}`}
         >
           <span className="mr-4 text-blue-500 text-xl">
             <SiFacebook />
