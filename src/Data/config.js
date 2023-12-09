@@ -41,7 +41,7 @@ export const projectsConfig = {
     },
     {
       title: "Cyberzone",
-      desc: "Social Media Services, Fulfill your social media needs by using Cyberzone services.",
+      desc: "Cyberzone is a social media services, Fulfill your social media needs by using Cyberzone services.",
       link: "#",
       github: "#",
       tag: ["Software Engineer", "Automation"],
