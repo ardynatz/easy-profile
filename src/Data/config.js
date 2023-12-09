@@ -15,11 +15,11 @@ export const aboutConfig = {
 
 export const contactConfig = {
   title: "Reach me on",
-  email: "hi@ardipranata.me",
-  facebook: "http://www.facebook.com/ardi.pranata.330",
-  telegram: "@ardiprana89",
-  instagram: "http://instagram.com/ardynatz89",
-  twitter: "http://twitter.com/ardipranata89",
+  email: "ardiprana90@gmail.com",
+  facebook: "ardi.pranata.330",
+  telegram: "ardynatz",
+  instagram: "ardynatz89",
+  twitter: "ardipranata89",
 };
 
 export const projectsConfig = {
@@ -41,14 +41,14 @@ export const projectsConfig = {
     },
     {
       title: "Cyberzone",
-      desc: "Social Media Services, Fulfill your social media needs by using Cyberzone services.",
+      desc: "Cyberzone is a social media services, Fulfill your social media needs by using Cyberzone services.",
       link: "#",
       github: "#",
       tag: ["Software Engineer", "Automation"],
     },
     {
       title: "AES Crypted",
-      desc: "With the AES JavaScript algorithm you can encrypt your messages securely and you can set your own encryption password, making your messages even more private.",
+      desc: "AES JavaScript algorithm can encrypt your messages securely and you can set your own encryption password, making your messages even more private.",
       link: "https://aescrypted.ardy.lol",
       github: "#",
       tag: ["Material UI", "Tailwind CSS", "React Vite"],
